@@ -1,0 +1,216 @@
+/* common css  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+@font-face {
+    font-family: Roboto;
+    src: url(Fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Fonts/montserrat/Montserrat-Regular.ttf);
+}
+
+/* body{
+    margin: 12px;
+} */
+
+/* navigation bar styling */
+
+.navbar {
+    display: flex;
+    height: 80px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+li {
+    display: inline-block;
+}
+
+.logo-img {
+    width: 180px;
+    margin-left: 35px;
+}
+
+.menu-items {
+    padding: 32px 45px;
+    font-family: "Montserrat";
+}
+
+.menu-items:hover {
+    background-image: linear-gradient(0deg, #155ed1 0%, #ba5cff 100%);
+    color: white;
+
+}
+
+.menu {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+/* home page css  */
+
+.home-page-img {
+    width: 100%;
+}
+
+/* cards css  */
+
+.cards-style {
+    height: 382px;
+    width: 312px;
+    color: white;
+    padding: 26px;
+}
+
+.parent-cards {
+    justify-content: space-evenly;
+    margin: 0px 46px;
+
+}
+
+.parent-cards p {
+    padding-top: 40px;
+}
+
+.card-1 {
+    background-image: linear-gradient(0deg, #ff8615 0%, #ffaf00 99%, #ffaf00 100%);
+
+}
+
+.card-2 {
+    background-image: linear-gradient(0deg, #155ed1 0%, #ba5cff 100%);
+
+}
+
+.card-3 {
+    background-image: linear-gradient(0deg, #ff1c98 0%, #ff3050 100%);
+
+}
+
+.card-4 {
+    background-image: linear-gradient(0deg, #b61fe0 0%, #ff14e7 99%, #ff14e7 100%);
+
+}
+
+h2 {
+    font-size: 51px;
+    font-weight: 500;
+}
+
+.Arrow {
+    padding: 14px 0px 0px 232px
+}
+
+/* welcome-school css  */
+
+.text-block p {
+    padding: 30px 40px 36px 0px;
+}
+
+.block-row1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 38px;
+}
+
+.block-row2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0px 38px 38px 38px;
+}
+
+.block-img {
+    width: 650px;
+    height: 492px;
+}
+
+.text-block {
+    /* width: 46%; */
+    padding: 100px 56px;
+    width: 650px;
+    height: 492px;
+    background-color: #f7f7f7;
+}
+
+/* background image */
+
+.bg-img {
+    background-image: url(Images/background-img.svg);
+    width: 1440px;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.template {
+    height: 700px;
+    width: 650px;
+    background-image: linear-gradient(0deg, #f6058e 0%, #ff3351 100%);
+    opacity: 0.902;
+    color: white;
+    padding: 75px;
+    margin-left: 85px;
+}
+
+.template p {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.p1 {
+    padding: 60px 0px 0px 0px;
+}
+
+.p2 {
+    padding: 45px 0px 36px 0px;
+}
+
+.know-more{
+    width: 190px;
+    height: 60px;
+    font-size: 23px;
+    color: #000000;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+}
+
+.read-more{
+    width: 145px;
+    height: 50px;
+    background-image: linear-gradient(87deg, #ff8b00 0%, #ff3050 100%);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+}
+
+.read-more:hover{
+    cursor: pointer;
+    background-image: linear-gradient(157deg, #ffaa41 0%, #fe3b58 100%);
+}
+.know-more:hover{
+    cursor: pointer;
+    background-image: linear-gradient(90geg, #dcdcdcba 0%, #e0dddd 100%) ;
+}
