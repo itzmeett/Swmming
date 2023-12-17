@@ -84,17 +84,17 @@ li {
     width: 312px;
     color: white;
     padding: 26px;
-    text-align: justify;
 }
 
 .parent-cards {
     justify-content: space-evenly;
     margin: 0px 46px;
-
+    
 }
 
 .parent-cards p {
     padding-top: 40px;
+    text-align: justify;
 }
 
 .card-1 {
@@ -153,6 +153,9 @@ h2 {
     width: 650px;
     height: 492px;
     background-color: #f7f7f7;
+}
+
+.text-block p{
     text-align: justify;
 }
 
@@ -172,15 +175,16 @@ h2 {
     color: white;
     padding: 75px;
     margin-left: 86px;
-    text-align: justify;
 }
 
 .p1 {
     padding: 60px 0px 0px 0px;
+    text-align: justify;
 }
 
 .p2 {
     padding: 45px 0px 36px 0px;
+    text-align: justify;
 }
 
 .know-more {
