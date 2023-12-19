@@ -43,6 +43,7 @@ a {
     height: 80px;
     flex-wrap: wrap;
     align-items: center;
+    color: #000000;
 }
 
 li {
@@ -84,7 +85,14 @@ li {
     width: 312px;
     color: white;
     padding: 26px;
+    /* animation-duration: 1s; */
+    /* animation: effect  1s 0.5s; */
 }
+
+/* .effect:hover{
+    animation-name: effect;
+    animation-delay: 0.5s;
+} */
 
 .parent-cards {
     justify-content: space-evenly;
@@ -99,22 +107,33 @@ li {
 
 .card-1 {
     background-image: linear-gradient(0deg, #ff8615 0%, #ffaf00 99%, #ffaf00 100%);
-
+    
 }
 
 .card-2 {
     background-image: linear-gradient(0deg, #155ed1 0%, #ba5cff 100%);
-
 }
 
 .card-3 {
     background-image: linear-gradient(0deg, #ff1c98 0%, #ff3050 100%);
-
+    
 }
 
 .card-4 {
     background-image: linear-gradient(0deg, #b61fe0 0%, #ff14e7 99%, #ff14e7 100%);
 
+}
+
+@keyframes effect{
+    0%{
+        height: 382px;
+        width: 312px;
+    }
+    100%{
+        height: 400px;
+        width: 330px;
+        /* box-shadow: #f3f3f3; */
+    }
 }
 
 h2 {
@@ -164,7 +183,7 @@ h2 {
 .bg-img {
     background-image: url(Images/background-img.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .template {
@@ -309,3 +328,13 @@ h2 {
     color: grey;
     text-align: center;
 }
+
+@media screen and (min-width:200px) and (max-width: 567px) {
+    
+    
+}
+    
+}
+    
+}
+
